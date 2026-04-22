@@ -12,5 +12,5 @@ console.log('   H A S I L   ')
 console.log('---------------')
 
 console.log(
-    `luas trapesium\t ${luas.toFixed(2)} cm
-    keliling trapesium\t ${keliling.toFixed(2)} cm`)
+    `luas trapesium\t: ${luas.toFixed(2)} cm
+    keliling trapesium\t: ${keliling.toFixed(2)} cm`)

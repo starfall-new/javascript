@@ -1,6 +1,7 @@
 const prompt = require('prompt-sync')({sigint: true});
 let alas = Number(prompt('masukan alas : '))
 let tinggi = Number(prompt('masukan tinggi : '))
+
 let luas = alas * tinggi 
 let keliling = alas + tinggi + (Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2)))
 

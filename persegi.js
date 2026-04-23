@@ -1,5 +1,6 @@
 const prompt = require("prompt-sync")({sigint: true});
 let sisi = Number(prompt('masukan sisi : '))
+
 let luas = sisi ^ 2
 let keliling = 4 * sisi
 console.log('========================')

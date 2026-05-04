@@ -10,5 +10,5 @@ console.log('   H A S I L   ')
 console.log('---------------')
 
 console.log(
-    `luas jajar-genjang\t\t: ${luas.toFixed(2)} cm
+    `luas jajar-genjang\t: ${luas.toFixed(2)} cm
     keliling jajar-genjang\t: ${keliling.toFixed(2)} cm `)

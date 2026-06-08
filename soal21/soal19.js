@@ -1,4 +1,3 @@
-// 1. Mengambil input dari user
 let x = parseInt(prompt("Masukkan angka pertama (x):"));
 let y = parseInt(prompt("Masukkan angka kedua (y):"));
 let z = parseInt(prompt("Masukkan angka ketiga (z):"));

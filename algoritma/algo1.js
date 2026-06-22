@@ -14,3 +14,5 @@ if ( jam >= 24){
 } else {
     console.log("null")
 }
+
+console.log("total nya adalah " + hari + " hari " + jam + " jam " + menit + " menit " + detik + " detik")

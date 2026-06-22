@@ -14,3 +14,5 @@ if ( bulan >= 12){
 } else {
     console.log("null")
 }
+
+console.log("total nya adalah " + tahun + " tahun " + bulan + " bulan " + hari + " hari " + jam + " jam")

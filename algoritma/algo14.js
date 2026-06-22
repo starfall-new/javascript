@@ -1,5 +1,5 @@
 let nama = prompt("Masukkan nama karyawan")
-let golongan = prompt("Masukkan golongan (A/B/C/D) huruf gede")
+let golongan = prompt("Masukkan golongan (a/b/c/d)")
 let jam = Number(prompt("Masukkan total jam kerja seminggu:"))
 
 let gajibiasa = 0;
@@ -7,13 +7,13 @@ let gajilembur = 3000;
 let gaji = 0;
 let lembur = 0;
 
-if (golongan == "A") {
+if (golongan == "a") {
     gajibiasa = 4000;
-} else if (golongan == "B") {
+} else if (golongan == "b") {
     gajibiasa = 5000;
-} else if (golongan == "C") {
+} else if (golongan == "c") {
     gajibiasa = 6000;
-} else if (golongan == "D") {
+} else if (golongan == "d") {
     gajibiasa = 7500;
 } else {
     console.log("siapa ini?")
